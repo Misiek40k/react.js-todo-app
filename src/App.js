@@ -6,9 +6,9 @@ import FooterComponent from './components/footer';
 
 function App() {
   return (
-    <div className="App grey lighten-2 min-vh-100">
+    <div className="App grey lighten-4 min-vh-100">
       <MDBContainer className="mw-100 mh-100 p-0">
-        <MDBEdgeHeader color="mdb-color deep-purple darken-2"></MDBEdgeHeader>
+        <MDBEdgeHeader color="mdb-color deep-purple"></MDBEdgeHeader>
         <MDBFreeBird>
           <MDBRow className="p-3">
             <MDBCol md="8" lg="7" className="mx-auto float-none white z-depth-2 rounded">
