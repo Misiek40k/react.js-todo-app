@@ -2,10 +2,11 @@ import React from 'react';
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBCardTitle, MDBContainer, MDBEdgeHeader } from
   "mdbreact";
 import './App.scss';
+import FooterComponent from './components/footer';
 
 function App() {
   return (
-    <div className="App grey lighten-2">
+    <div className="App grey lighten-2 min-vh-100">
       <MDBContainer className="mw-100 mh-100 p-0">
         <MDBEdgeHeader color="mdb-color deep-purple darken-2"></MDBEdgeHeader>
         <MDBFreeBird>
@@ -19,6 +20,8 @@ function App() {
           </MDBRow>
         </MDBFreeBird>
       </MDBContainer>
+
+      <FooterComponent/>
     </div>
   );
 }
