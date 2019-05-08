@@ -1,7 +1,9 @@
 import React from 'react';
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBCardTitle, MDBContainer, MDBEdgeHeader } from
   "mdbreact";
+
 import './App.scss';
+
 import FooterComponent from './components/footer';
 
 function App() {
