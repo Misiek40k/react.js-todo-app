@@ -6,6 +6,7 @@ import './App.scss';
 
 import TitleComponent from './components/title';
 import BtnGroupComponent from './components/btnGroup';
+import ListComponent from './components/list';
 import FooterComponent from './components/footer';
 
 class App extends React.Component {
@@ -26,6 +27,7 @@ class App extends React.Component {
 
                   <TitleComponent/>
                   <BtnGroupComponent/>
+                  <ListComponent/>
 
                 </MDBCardBody>
               </MDBCol>
