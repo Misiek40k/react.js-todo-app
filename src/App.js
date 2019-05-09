@@ -1,5 +1,5 @@
 import React from 'react';
-import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBCardTitle, MDBContainer, MDBEdgeHeader } from
+import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from
   "mdbreact";
 
 import './App.scss';
