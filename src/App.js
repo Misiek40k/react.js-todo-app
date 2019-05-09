@@ -4,7 +4,7 @@ import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader }
 
 import './App.scss';
 
-import HeaderComponent from './components/header';
+import TitleComponent from './components/title';
 import BtnGroupComponent from './components/btnGroup';
 import FooterComponent from './components/footer';
 
@@ -24,7 +24,7 @@ class App extends React.Component {
               <MDBCol md="8" lg="7" className="mx-auto float-none white z-depth-2 rounded">
                 <MDBCardBody>
 
-                  <HeaderComponent/>
+                  <TitleComponent/>
                   <BtnGroupComponent/>
 
                 </MDBCardBody>

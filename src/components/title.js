@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
-import { MDBCardTitle } from
-    "mdbreact";
+import { MDBCardTitle } from "mdbreact";
 
-class HeaderComponent extends Component {
+class TitleComponent extends Component {
     render() {
         return (
             <div>
@@ -13,4 +12,4 @@ class HeaderComponent extends Component {
     }
 }
 
-export default HeaderComponent;
+export default TitleComponent;
