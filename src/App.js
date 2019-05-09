@@ -4,16 +4,13 @@ import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBCardTitle, MDBContainer, M
 
 import './App.scss';
 
+import HeaderComponent from './components/header';
+import BtnGroupComponent from './components/btnGroup';
 import FooterComponent from './components/footer';
 
 class App extends React.Component {
-  constructor(){
-    super();
-    this.state = {
-      title: "React.js TODO App"
-    }
-  }
-  
+ 
+
   render() {
     return (
       <div className="App grey lighten-4 min-vh-100">
@@ -27,8 +24,8 @@ class App extends React.Component {
               <MDBCol md="8" lg="7" className="mx-auto float-none white z-depth-2 rounded">
                 <MDBCardBody>
 
-                  <MDBCardTitle>{this.state.title}</MDBCardTitle>
-                  <p className="pb-4">Add, Remove, Clear</p>
+                  <HeaderComponent/>
+                  <BtnGroupComponent/>
 
                 </MDBCardBody>
               </MDBCol>
