@@ -8,6 +8,12 @@ import FooterComponent from './components/footer';
 
 class App extends React.Component {
 
+  constructor() {
+    super();
+    this.state = {
+      todos: []
+    };
+  }
 
   render() {
     return (
