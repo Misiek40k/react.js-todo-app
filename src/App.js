@@ -2,7 +2,7 @@ import React from 'react';
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from
   "mdbreact";
 
-import './App.scss';
+import './styles/App.scss';
 
 import TitleComponent from './components/title';
 import BtnGroupComponent from './components/btnGroup';
