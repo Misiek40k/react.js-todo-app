@@ -21,6 +21,7 @@ class App extends React.Component {
 
   addClick = () => {
     const todo = {
+      index: this.state.todos.length + 1,
       content: `Task number ${this.state.todos.length + 1}`
     };
 
