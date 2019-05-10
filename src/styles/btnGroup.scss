@@ -1,0 +1,15 @@
+.btnGroup{
+    flex-direction: column;
+
+    .btn{
+        margin-bottom: 0.5rem;
+    }
+    
+    @media (min-width: 576px) { 
+        flex-direction: row;
+
+        .btn{
+            margin-bottom: 0;
+        }
+    }
+}
