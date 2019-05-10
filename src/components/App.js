@@ -11,9 +11,28 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todos: []
+      todos: ''
     };
+
+    this.addClick = this.addClick.bind(this);
+    this.deleteClick = this.deleteClick.bind(this);
+    this.clearClick = this.clearClick.bind(this);
   }
+
+  addClick = (e) => {
+    console.log('add');
+    e.preventDefault();
+  };
+
+  deleteClick = (e) => {
+    console.log('delete');
+    e.preventDefault();
+  };
+
+  clearClick = (e) => {
+    console.log('clear');
+    e.preventDefault();
+  };
 
   render() {
     return (
@@ -29,7 +48,11 @@ class App extends React.Component {
                 <MDBCardBody>
 
                   <TitleComponent />
-                  <BtnGroupComponent />
+                  <BtnGroupComponent
+                    addClick={this.addClick}
+                    deleteClick={this.deleteClick}
+                    clearClick={this.clearClick}
+                  />
                   <ListComponent />
 
                 </MDBCardBody>
