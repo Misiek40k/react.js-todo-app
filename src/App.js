@@ -21,7 +21,7 @@ class App extends React.Component {
           {/* Main container */}
           <MDBFreeBird>
             <MDBRow className="p-3">
-              <MDBCol md="8" lg="7" className="mx-auto float-none white z-depth-2 rounded">
+              <MDBCol md="8" lg="7" className="mx-auto mb-5 float-none white z-depth-2 rounded">
                 <MDBCardBody>
 
                   <TitleComponent />
