@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBListGroup, MDBListGroupItem } from 'mdbreact';
+import { MDBListGroup } from 'mdbreact';
 
 class ListComponent extends Component {
     render() {
