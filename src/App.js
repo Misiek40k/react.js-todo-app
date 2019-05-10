@@ -1,8 +1,6 @@
 import React from 'react';
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from 'mdbreact';
 
-import './styles/App.scss';
-
 import TitleComponent from './components/title';
 import BtnGroupComponent from './components/btnGroup';
 import ListComponent from './components/list';
@@ -13,7 +11,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <div className="App grey lighten-4 min-vh-100">
+      <div className="grey lighten-4 min-vh-100 text-center">
         <MDBContainer className="mw-100 mh-100 p-0">
           {/* edge header */}
           <MDBEdgeHeader color="deep-purple"></MDBEdgeHeader>
