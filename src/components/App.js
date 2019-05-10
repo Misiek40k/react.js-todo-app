@@ -11,7 +11,7 @@ class App extends React.Component {
   constructor() {
     super();
     this.state = {
-      todos: ''
+      todos: []
     };
 
     this.addClick = this.addClick.bind(this);
@@ -19,19 +19,26 @@ class App extends React.Component {
     this.clearClick = this.clearClick.bind(this);
   }
 
-  addClick = (e) => {
-    console.log('add');
-    e.preventDefault();
+  addClick = () => {
+    const todo = {
+      content: `Task number ${this.state.todos.length + 1}`
+    };
+
+    const newTodo = this.state.todos.concat(todo);
+
+    this.setState({
+      todos: newTodo
+    });
+
+    console.log(this.state.todos);
   };
 
-  deleteClick = (e) => {
+  deleteClick = () => {
     console.log('delete');
-    e.preventDefault();
   };
 
-  clearClick = (e) => {
+  clearClick = () => {
     console.log('clear');
-    e.preventDefault();
   };
 
   render() {
