@@ -1,10 +1,10 @@
 import React from 'react';
 import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from 'mdbreact';
 
-import TitleComponent from './components/title';
-import BtnGroupComponent from './components/btnGroup';
-import ListComponent from './components/list';
-import FooterComponent from './components/footer';
+import TitleComponent from './title';
+import BtnGroupComponent from './btnGroup';
+import ListComponent from './list';
+import FooterComponent from './footer';
 
 class App extends React.Component {
 
