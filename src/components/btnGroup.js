@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBBtn, MDBBtnGroup} from "mdbreact";
+import { MDBBtn, MDBBtnGroup} from 'mdbreact';
 
 import '../styles/btnGroup.scss';
 

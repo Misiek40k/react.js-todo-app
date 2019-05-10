@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import { MDBListGroup, MDBListGroupItem } from "mdbreact";
+import { MDBListGroup, MDBListGroupItem } from 'mdbreact';
 
 class ListComponent extends Component {
     render() {
         return (
             <div>
-                <MDBListGroup >
+                <MDBListGroup>
                     <MDBListGroupItem href="#" hover>1</MDBListGroupItem>
                     <MDBListGroupItem href="#" hover>2</MDBListGroupItem>
                     <MDBListGroupItem href="#" hover>3</MDBListGroupItem>

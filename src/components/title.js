@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBCardTitle } from "mdbreact";
+import { MDBCardTitle } from 'mdbreact';
 
 class TitleComponent extends Component {
     render() {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from
-  "mdbreact";
+import { MDBFreeBird, MDBCol, MDBRow, MDBCardBody, MDBContainer, MDBEdgeHeader } from 'mdbreact';
 
 import './styles/App.scss';
 
@@ -10,7 +9,7 @@ import ListComponent from './components/list';
 import FooterComponent from './components/footer';
 
 class App extends React.Component {
- 
+
 
   render() {
     return (
@@ -25,9 +24,9 @@ class App extends React.Component {
               <MDBCol md="8" lg="7" className="mx-auto float-none white z-depth-2 rounded">
                 <MDBCardBody>
 
-                  <TitleComponent/>
-                  <BtnGroupComponent/>
-                  <ListComponent/>
+                  <TitleComponent />
+                  <BtnGroupComponent />
+                  <ListComponent />
 
                 </MDBCardBody>
               </MDBCol>
