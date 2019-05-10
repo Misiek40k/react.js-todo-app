@@ -5,7 +5,7 @@ const TitleComponent = () => {
         return (
             <div>
                 <MDBCardTitle>React.js TODO App</MDBCardTitle>
-                <p className="pb-4">Add, Remove, Clear</p>
+                <p className="pb-4">Add task / Delete last / Clear All</p>
             </div>
         );
 }
