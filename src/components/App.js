@@ -61,7 +61,9 @@ class App extends React.Component {
                     deleteClick={this.deleteClick}
                     clearClick={this.clearClick}
                   />
-                  <ListComponent />
+                  <ListComponent
+                    listLength={this.state.todos.length}
+                  />
 
                 </MDBCardBody>
               </MDBCol>
