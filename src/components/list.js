@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {  MDBIcon } from 'mdbreact';
+import { MDBIcon } from 'mdbreact';
 
 import ListItemComponent from './listItem';
 
@@ -20,7 +20,7 @@ class ListComponent extends Component {
                 <div>
                     <MDBIcon icon="tasks" className="mr-1" />
                     <span>Remaining tasks: {ifTasks}</span>
-                    <ListItemComponent item={this.props.todos}/>
+                    <ListItemComponent item={this.props.todos} />
                 </div>
             );
         }
