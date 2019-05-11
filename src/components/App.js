@@ -19,9 +19,9 @@ class App extends React.Component {
     this.clearClick = this.clearClick.bind(this);
   }
 
-  setNewState(newTodo) {
+  setNewState(newState) {
     this.setState({
-      todos: newTodo
+      todos: newState
     });
   }
 
