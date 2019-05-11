@@ -1,14 +1,25 @@
 import React, { Component } from 'react';
-import { MDBListGroupItem } from 'mdbreact';
+import { MDBListGroup, MDBListGroupItem } from 'mdbreact';
 
-class ListItem extends Component {
+class ListItemComponent extends Component {
+
+    createItem(item) {
+        return <MDBListGroupItem href="#" hover>{item.content}</MDBListGroupItem>
+    }
+
     render() {
+
+        let todos = this.props.item;
+        let todoItem = todos.map(this.createItem);
+
         return (
             <div>
-                <MDBListGroupItem href="#" hover>1</MDBListGroupItem>
+                <MDBListGroup>
+            {todoItem}
+                </MDBListGroup>
             </div>
         );
     }
 }
 
-export default ListItem;
+export default ListItemComponent;

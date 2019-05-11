@@ -1,5 +1,8 @@
 import React, { Component } from 'react';
-import { MDBListGroup, MDBIcon } from 'mdbreact';
+import {  MDBIcon } from 'mdbreact';
+
+import ListItemComponent from './listItem';
+
 
 class ListComponent extends Component {
     render() {
@@ -16,7 +19,7 @@ class ListComponent extends Component {
             return (
                 <div>
                     <span>Remaining tasks: {ifTasks}</span>
-                    <MDBListGroup></MDBListGroup>
+                    <ListItemComponent item={this.props.todos}/>
                 </div>
             );
         }

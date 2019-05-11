@@ -30,8 +30,6 @@ class App extends React.Component {
     this.setState({
       todos: newTodo
     });
-
-    console.log(this.state.todos);
   };
 
   deleteClick = () => {
@@ -63,6 +61,7 @@ class App extends React.Component {
                   />
                   <ListComponent
                     listLength={this.state.todos.length}
+                    todos={this.state.todos}
                   />
 
                 </MDBCardBody>
