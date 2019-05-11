@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBContainer, MDBFooter } from 'mdbreact';
 
+
 const FooterComponent = () => {
   return (
     <MDBFooter color="grey darken-3" className="font-small mt-4 fixed-bottom">

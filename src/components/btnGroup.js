@@ -3,6 +3,7 @@ import { MDBBtn, MDBBtnGroup, MDBIcon } from 'mdbreact';
 
 import '../styles/btnGroup.scss';
 
+
 class BtnGroupComponent extends Component {
 
     render() {

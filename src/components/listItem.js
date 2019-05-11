@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { MDBListGroup, MDBListGroupItem, MDBIcon } from 'mdbreact';
 
+
 class ListItemComponent extends Component {
 
     createItem(item) {

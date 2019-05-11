@@ -1,6 +1,7 @@
 import React from 'react';
 import { MDBCardTitle } from 'mdbreact';
 
+
 const TitleComponent = () => {
     return (
         <div>
