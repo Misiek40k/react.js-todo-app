@@ -13,7 +13,7 @@ class BtnGroupComponent extends Component {
                     <MDBBtn color="primary btn" onClick={this.props.addClick} >
                         <MDBIcon icon="plus-square" className="mr-1" />Add</MDBBtn>
                     <MDBBtn color="warning btn" onClick={this.props.deleteClick}>
-                        <MDBIcon icon="minus-square" className="mr-1" />Delete</MDBBtn>
+                        <MDBIcon icon="minus-square" className="mr-1" />Remove</MDBBtn>
                     <MDBBtn color="danger btn" onClick={this.props.clearClick}>
                         <MDBIcon icon="eraser" className="mr-1" />Clear</MDBBtn>
                 </MDBBtnGroup>

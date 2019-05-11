@@ -13,7 +13,7 @@ const TitleComponent = () => {
                 </MDBCol>
             </MDBRow>
             <MDBCardTitle>React.js TODO App</MDBCardTitle>
-            <p className="pb-4">Add task / Delete last / Clear all</p>
+            <p className="pb-4">Add task / Remove last / Clear all</p>
         </div>
     );
 }
