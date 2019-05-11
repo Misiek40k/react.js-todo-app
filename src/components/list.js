@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { MDBIcon } from 'mdbreact';
+import { MDBAnimation, MDBIcon } from 'mdbreact';
 
 import ListItemComponent from './listItem';
 
@@ -11,15 +11,19 @@ class ListComponent extends Component {
         if (ifTasks === 0) {
             return (
                 <div>
-                    <span>Congratulations! No tasks for now</span> <MDBIcon icon="smile-wink" className="mr-1" />
+                    <MDBAnimation type="zoomIn" >
+                        <span>Congratulations! No tasks for now</span> <MDBIcon icon="smile-wink" className="mr-1" />
+                    </MDBAnimation>
                 </div>
             );
 
         } else {
             return (
                 <div>
-                    <MDBIcon icon="tasks" className="mr-1" />
-                    <span>Remaining tasks: {ifTasks}</span>
+                    <MDBAnimation type="fadeIn" >
+                        <MDBIcon icon="tasks" className="mr-1" />
+                        <span>Remaining tasks: {ifTasks}</span>
+                    </MDBAnimation>
                     <ListItemComponent item={this.props.todos} />
                 </div>
             );

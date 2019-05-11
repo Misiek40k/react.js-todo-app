@@ -6,10 +6,12 @@ class ListItemComponent extends Component {
 
     createItem(item) {
         return (
-            <MDBListGroupItem href="#" hover key={item.index}>
-                <MDBIcon icon="clipboard-list" className="mr-2" />
-                {item.content}
-            </MDBListGroupItem>
+            <div>
+                <MDBListGroupItem href="#" hover key={item.index}>
+                    <MDBIcon icon="clipboard-list" className="mr-2" />
+                    {item.content}
+                </MDBListGroupItem>
+            </div>
         )
     }
 
