@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import { MDBListGroup, MDBListGroupItem } from 'mdbreact';
+import { MDBListGroup, MDBListGroupItem, MDBIcon } from 'mdbreact';
 
 class ListItemComponent extends Component {
 
     createItem(item) {
-        return <MDBListGroupItem href="#" hover key={item.index}>{item.content}</MDBListGroupItem>
+        return (
+            <MDBListGroupItem href="#" hover key={item.index}>
+                <MDBIcon icon="clipboard-list" className="mr-2" />
+                {item.content}
+            </MDBListGroupItem>
+        )
     }
 
     render() {
@@ -15,7 +20,7 @@ class ListItemComponent extends Component {
         return (
             <div>
                 <MDBListGroup>
-            {todoItem}
+                    {todoItem}
                 </MDBListGroup>
             </div>
         );

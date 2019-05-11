@@ -18,6 +18,7 @@ class ListComponent extends Component {
         } else {
             return (
                 <div>
+                    <MDBIcon icon="tasks" className="mr-1" />
                     <span>Remaining tasks: {ifTasks}</span>
                     <ListItemComponent item={this.props.todos}/>
                 </div>
