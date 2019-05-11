@@ -32,14 +32,13 @@ class App extends React.Component {
     };
 
     const newTodo = this.state.todos.concat(todo);
-
     this.setNewState(newTodo);
   };
 
   deleteClick = () => {
-    // const newTodo = this.state.todos.splice();
-    // console.log(newTodo);
-
+    const todos = this.state.todos;
+    todos.pop();
+    this.setNewState(todos);
   };
 
   clearClick = () => {
