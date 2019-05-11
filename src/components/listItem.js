@@ -4,7 +4,7 @@ import { MDBListGroup, MDBListGroupItem } from 'mdbreact';
 class ListItemComponent extends Component {
 
     createItem(item) {
-        return <MDBListGroupItem href="#" hover>{item.content}</MDBListGroupItem>
+        return <MDBListGroupItem href="#" hover key={item.index}>{item.content}</MDBListGroupItem>
     }
 
     render() {

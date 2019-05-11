@@ -19,6 +19,12 @@ class App extends React.Component {
     this.clearClick = this.clearClick.bind(this);
   }
 
+  setNewState(newTodo) {
+    this.setState({
+      todos: newTodo
+    });
+  }
+
   addClick = () => {
     const todo = {
       index: this.state.todos.length + 1,
@@ -27,17 +33,18 @@ class App extends React.Component {
 
     const newTodo = this.state.todos.concat(todo);
 
-    this.setState({
-      todos: newTodo
-    });
+    this.setNewState(newTodo);
   };
 
   deleteClick = () => {
-    console.log('delete');
+    // const newTodo = this.state.todos.splice();
+    // console.log(newTodo);
+
   };
 
   clearClick = () => {
-    console.log('clear');
+    const newTodo = this.state.todos.splice();
+    this.setNewState(newTodo);
   };
 
   render() {
